@@ -1,0 +1,17 @@
+Class e eshe Section diye Design
+Background same rakha
+container 1170
+
+CSS Normalization
+
+## Some Git Branching Shortcut
+
+git checkout -b <new_branch>   // for new branch and switch to it
+git checkout main             // for switching to main branch
+
+git checkout main         // for creating a new branch
+git merge <new_branch>            // and merge to main branch
+
+git add .
+git commit -m 'Storing Old Navbar'
+git push -u origin <branch-name>

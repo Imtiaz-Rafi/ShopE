@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100;200;300;400;500;600;700;800&display=swap');
+
+*{
+    font-family: 'Sora';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 1170px;
+    margin: auto;
+}
+a{
+    text-decoration: none;
+}
+
+
+/* top navbar */
+.top_nav{
+    margin: 7px 0px 12px 0px;
+    color: #2D334A;
+}
+.top_nav_content{
+    display: flex;
+    justify-content: space-between;
+}
+.top_nav_sub_content{
+    display: flex;
+}
+.sub_links{
+    color: #2D334A;
+    display: flex;
+    align-items: center;
+}
+.sub_links.second{
+    margin-left: 49.5px;
+}
+.tele{
+    width: 14.25px;
+    height: 14.25px;
+    margin-right: 5.87px; 
+}
+.msg{
+    width: 15px;
+    height: 13.5px;
+    margin-right: 5.5px;
+}
+.down_arrow{
+    width: 10px;
+    height: 7px;
+    margin-left: 5.84px;
+}
+
+/* navbar */
+
+.navbar_backg{
+    background: #E3F6F5; 
+}
+.navbar{
+    align-items: center ;
+    display: flex;
+    justify-content: space-between;
+}
+.nav_content{
+    display: flex;
+}
+.logo{
+    width: 118.93px;
+    height: 40px;
+    margin: 16px 0px 16px 0px;
+}
+.nav_text{
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+    color: #272343;
+    margin: 0px 14px 0px 14px;
+}
+.nav_links{
+    margin: 0px 12px 0px 12px;
+}
+.nav_text:hover , .nav_links:hover{
+    color: #FFD803;
+}
+
+.sub_links:hover{
+    text-decoration: underline;
+}
