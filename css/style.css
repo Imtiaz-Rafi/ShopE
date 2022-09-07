@@ -16,16 +16,14 @@
 a{
     text-decoration: none;
 }
-ul{
-    list-style: none;
-}
+
 
 /* top navbar */
 .top_nav{
     margin: 7px 0px 12px 0px;
     color: #2D334A;
 }
-.top-nav-content{
+.top_nav_content{
     display: flex;
     justify-content: space-between;
 }
@@ -37,36 +35,23 @@ ul{
     display: flex;
     align-items: center;
 }
-.sub_links_text{
-    margin-left: 20.13px;
-}
-
 .sub_links.second{
     margin-left: 49.5px;
 }
-
-.tele::before{
-    content: '';
-    background: url("../images/telephone.png") no-repeat;
-    width: 18px;
-    height: 18px;
-    margin-right: 4px;
-    align-items: center;
+.tele{
+    width: 14.25px;
+    height: 14.25px;
+    margin-right: 5.87px; 
 }
-.msg::before{
-    content: '';
-    background: url("../images/Message.png") no-repeat;
-    width: 18px;
-    height: 18px;
-    margin-right: 4px;
-    align-items: center; 
+.msg{
+    width: 15px;
+    height: 13.5px;
+    margin-right: 5.5px;
 }
-.down_arrow::after{
-    content: '';
-    background: url("../images/down_arrow.png") no-repeat;
+.down_arrow{
     width: 10px;
     height: 7px;
-    margin-left: 4px;
+    margin-left: 5.84px;
 }
 
 /* navbar */
