@@ -21,36 +21,34 @@ ul{
 }
 
 /* top navbar */
-.top_nav{
-    margin: 7px 0px 12px 0px;
+.top-nav{
+    padding: 7px 0px 12px 0px;
     color: #2D334A;
 }
-.top-nav-content{
+.top-nav .top-nav-content{
     display: flex;
     justify-content: space-between;
 }
-.top_nav_sub_content{
+.top-nav-content .top-nav-sub-content{
     display: flex;
 }
-.sub_links{
+.top-nav-sub-content .sub-links{
     color: #2D334A;
     display: flex;
     align-items: center;
 }
-.sub_links_text{
-    margin-left: 20.13px;
+.top-nav-sub-content .sub-links.second{
+    padding-left: 49.5px;
 }
-
-.sub_links.second{
-    margin-left: 49.5px;
+.top-nav-sub-content .sub-links:hover{
+    text-decoration: underline;
 }
-
 .tele::before{
     content: '';
     background: url("../images/telephone.png") no-repeat;
     width: 18px;
     height: 18px;
-    margin-right: 4px;
+    padding-right: 4px;
     align-items: center;
 }
 .msg::before{
@@ -58,10 +56,10 @@ ul{
     background: url("../images/Message.png") no-repeat;
     width: 18px;
     height: 18px;
-    margin-right: 4px;
+    padding-right: 4px;
     align-items: center; 
 }
-.down_arrow::after{
+.down-arrow::after{
     content: '';
     background: url("../images/down_arrow.png") no-repeat;
     width: 10px;
@@ -71,36 +69,33 @@ ul{
 
 /* navbar */
 
-.navbar_backg{
+.navbar-backg{
     background: #E3F6F5; 
 }
-.navbar{
+.navbar-backg .navbar{
     align-items: center ;
     display: flex;
     justify-content: space-between;
+    padding: 16px 0px;
 }
-.nav_content{
+.navbar .nav-content{
     display: flex;
 }
-.logo{
-    width: 118.93px;
-    height: 40px;
-    margin: 16px 0px 16px 0px;
-}
-.nav_text{
+
+.nav-content .nav-text{
     font-weight: 600;
     font-size: 14px;
     line-height: 21px;
     color: #272343;
-    margin: 0px 14px 0px 14px;
+    padding: 0px 14px;
 }
-.nav_links{
-    margin: 0px 12px 0px 12px;
+.nav-content .nav-links{
+    padding: 0px 12px;
 }
-.nav_text:hover , .nav_links:hover{
+.m-r-0{
+    padding-right: 0px !important;
+}
+.nav-text:hover , .nav_links:hover{
     color: #FFD803;
 }
 
-.sub_links:hover{
-    text-decoration: underline;
-}
