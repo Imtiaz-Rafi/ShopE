@@ -41,6 +41,11 @@ h4{
     font-size: 16px;
     line-height: 16px;
 } 
+h5{
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+}
 
 /* COlOR STYLES  */
 .Background{
@@ -162,9 +167,64 @@ h4{
     padding-right: 14px;
 }
 .banner-left .tagline{
-    padding-bottom: 38px;
+    padding-bottom: 54px;
 }
-.banner-left .explore-btn{
+.explore-btn{
     padding: 16px 32px;
     border-radius: 28px;
+}
+.facilities{
+    display: flex;
+    justify-content: space-around;
+    border-width: 1px 0px;
+    border-style: solid;
+    border-color: #BAE8E8;
+}
+.facilities .sub-facilities{
+    text-align: center;
+    padding-top: 72px;
+    padding-bottom: 92px;
+}
+.sub-facilities .sub-facilities-head{
+    padding-top: 16px;
+    padding-bottom: 8px;
+}
+.sub-facilities .sub-facilities-text{
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 24px;
+    color: #878787;
+}
+.trending-grid-container{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap:30px;
+    padding: 80px 0px;
+}
+.trending-items{
+    color: #222222;
+    display: flex;
+}
+.trending-items .item-left{
+    padding: 48px;
+}
+.item-left .item-name{
+    line-height: 30px;
+    padding-bottom: 12px;
+}
+.item-left .item-desc{
+    padding-bottom: 40px;
+}
+
+.trending-grid-container .first-item{
+    background: #FAEEFF;
+}
+.trending-grid-container .second-item{
+    background: #EDEDED ;
+}
+.trending-grid-container .third-item{
+    background: #BAE8E8;
+}
+.trending-grid-container .fourth-item{
+    background: #FFDDDC;
 }
