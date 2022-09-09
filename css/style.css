@@ -61,6 +61,7 @@ h4{
 .Button{
     background: #FFD803;
     border: none;
+    cursor: pointer;
 }
 .btn-text{
     color: #272343;
@@ -163,7 +164,7 @@ h4{
 .banner-left .tagline{
     padding-bottom: 38px;
 }
-.explore-btn{
+.banner-left .explore-btn{
     padding: 16px 32px;
     border-radius: 28px;
 }
