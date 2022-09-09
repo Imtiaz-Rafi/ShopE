@@ -20,6 +20,56 @@ ul{
     list-style: none;
 }
 
+/* Heading Style */
+h1{
+    font-weight: 800;
+    font-size: 55px;
+    line-height: 55px;
+}
+h2{
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 42px;
+}
+h3{
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 23px;
+}
+h4{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 16px;
+} 
+
+/* COlOR STYLES  */
+.Background{
+    background: #FFFFFE;
+}
+.Secondary{
+    background: #E3F6F5;
+}
+.Tertiary{
+    background: #BAE8E8;
+}
+.Headline{
+    color: #272343;
+}
+.Paragraph{
+    color: #2D334A;
+}
+.Button{
+    background: #FFD803;
+    border: none;
+    cursor: pointer;
+}
+.btn-text{
+    color: #272343;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 14px;
+}
+
 /* top navbar */
 .top-nav{
     padding: 7px 0px 12px 0px;
@@ -68,11 +118,7 @@ ul{
 }
 
 /* navbar */
-
-.navbar-backg{
-    background: #E3F6F5; 
-}
-.navbar-backg .navbar{
+.navbar{
     align-items: center ;
     display: flex;
     justify-content: space-between;
@@ -99,3 +145,26 @@ ul{
     color: #FFD803;
 }
 
+/* banner */
+.banner{
+    display: flex;
+    align-items: center;
+}
+.banner-left .summer{
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 18px;
+    padding-bottom: 4px;
+}
+.banner-left .head-name{
+    padding-bottom: 24px;
+    padding-right: 14px;
+}
+.banner-left .tagline{
+    padding-bottom: 38px;
+}
+.banner-left .explore-btn{
+    padding: 16px 32px;
+    border-radius: 28px;
+}
