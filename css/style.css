@@ -457,12 +457,11 @@ h5 {
     padding-bottom: 16px;
 }
 
-.input-btn-subscribe {
-    /* display: flex; */
+.banner-right .input-btn-subscribe {
     position: relative;
 }
 
-.input-btn-subscribe input {
+.banner-right .input-btn-subscribe input {
     width: 100%;
     padding: 14px;
     box-sizing: border-box;
@@ -471,7 +470,7 @@ h5 {
     border-radius: 25px;
 }
 
-.input-btn-subscribe button {
+.banner-right .input-btn-subscribe button {
     position: absolute;
     right: 0;
     font-weight: 700;
@@ -482,4 +481,99 @@ h5 {
     background: #FFD803;
     border: 1px solid #272343;
     border-radius: 28px;
+}
+
+/* Footer */
+
+
+.footer-details {
+    background: #F9F9F9;
+    padding: 48px 0px;
+}
+
+.footer-details .footer-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-details .contact-us {
+    color: #222222;
+}
+
+.footer-details .contact-us h3 {
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 27px;
+    padding-bottom: 30px;
+}
+
+.footer-details .contact-us a {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    color: #222222;
+}
+
+.footer-details .contact-us ul>li {
+    padding-bottom: 7px;
+}
+
+.footer-details .secured-by p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #878787;
+    padding-bottom: 16px;
+}
+
+.footer-details .footer-links h4 {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    color: #000000;
+    padding-bottom: 30px;
+}
+
+.footer-details .footer-links a {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #878787;
+
+}
+
+.footer-details .footer-links>ul>li {
+    padding-bottom: 10px;
+}
+
+.footer-details .footer-links a:hover {
+    text-decoration: underline;
+}
+
+
+
+
+.footer-bottom {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #878787;
+    padding: 16px 0px;
+}
+
+.footer-bottom .footer-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-bottom .footer-links a {
+    /* display: flex; */
+    /* justify-content: space-between; */
+    color: #878787;
+    padding: 10px;
+}
+
+.footer-bottom .footer-links a:hover {
+    text-decoration: underline;
 }
