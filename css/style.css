@@ -320,14 +320,11 @@ h5 {
     grid-gap: 40px 30px;
 }
 
-.best-selling-grid-container .selling-items {}
 
 .selling-items .sell-product-img {
     position: relative;
     padding-bottom: 24px;
 }
-
-.selling-items .sell-img-bottom {}
 
 .sell-product-img .offer-discount {
     padding: 6px 12px;
@@ -365,4 +362,60 @@ h5 {
 
 .pb-80 {
     padding-bottom: 80px;
+}
+
+.feature-backg {
+    text-align: center;
+    color: #222222;
+}
+
+.feature-header {
+    padding-bottom: 44px;
+}
+
+.feature-category {
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    width: 488px;
+    margin: auto;
+    align-items: center;
+    padding-bottom: 125px;
+}
+
+.feature-category .feature-items {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    padding: 8px 25px;
+}
+
+.feature-category .items-selected {
+    text-align: center;
+    background: #272343;
+    border-radius: 20px;
+    color: #FFFFFE;
+}
+
+.feature-grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 40px 30px;
+}
+
+.feature-items {}
+
+.feature-items img {
+    padding-bottom: 24px;
+}
+
+.feature-items h4 {
+    padding-bottom: 3px;
+}
+
+.feature-items p {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 27px;
+    color: #878787;
 }
