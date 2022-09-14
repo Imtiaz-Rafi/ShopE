@@ -148,19 +148,23 @@ h5 {
     align-items: center;
     display: flex;
     justify-content: space-between;
-    padding: 16px 0px;
 }
 
 .navbar .nav-content {
     display: flex;
 }
 
-.nav-content .nav-text {
+.nav-content>.nav-text {
+    display: flex;
+    padding: 25px;
+}
+
+.nav-content>.nav-text>li>a {
     font-weight: 600;
     font-size: 14px;
     line-height: 21px;
     color: #272343;
-    padding: 0px 14px;
+    padding: 26px 14px;
 }
 
 .nav-content .nav-links {
@@ -171,8 +175,7 @@ h5 {
     padding-right: 0px !important;
 }
 
-.nav-text:hover,
-.nav_links:hover {
+.nav-text>li>a:hover {
     color: #FFD803;
 }
 
@@ -230,6 +233,8 @@ h5 {
     color: #878787;
 }
 
+/* Trendings */
+
 .trending-grid-container {
     display: grid;
     grid-template-columns: auto auto;
@@ -245,37 +250,30 @@ h5 {
 
 .trending-items .item-left {
     padding: 48px;
+    padding-bottom: 64px;
 }
 
-.first-item .side-img {
+.item-upper-right {
     position: absolute;
     bottom: 49px;
     right: 48px;
 }
 
-.second-item .side-img {
-    position: absolute;
-    bottom: 49px;
-    right: 48px;
-}
-
-.third-item .side-img {
+.item-flex-right {
     position: absolute;
     right: 24px;
 }
 
-.third-item .item-left {
+.wd-252 {
     width: 252px;
 }
 
-.fourth-item .side-img {
-    position: absolute;
-    /* bottom: 45px; */
-    right: 24px;
+.wd-196 {
+    width: 196px;
 }
 
-.fourth-item .item-left {
-    width: 196px;
+.pd-top-59 {
+    padding-top: 59px;
 }
 
 .item-left .item-name {
@@ -287,11 +285,11 @@ h5 {
     padding-bottom: 40px;
 }
 
-.trending-grid-container .first-item {
+.light-pink {
     background: #FAEEFF;
 }
 
-.trending-grid-container .second-item {
+.gray {
     background: #EDEDED;
 }
 
@@ -299,7 +297,7 @@ h5 {
     background: #BAE8E8;
 }
 
-.trending-grid-container .fourth-item {
+.rose-gold {
     background: #FFDDDC;
 }
 
@@ -340,11 +338,11 @@ h5 {
 
 }
 
-.sell-img-bottom .product-name {
+.sell-product-details .product-name {
     padding-bottom: 3px;
 }
 
-.sell-img-bottom .old-price {
+.sell-product-details .old-price {
     padding-right: 12px;
     text-decoration-line: line-through;
     font-weight: 400;
@@ -353,7 +351,7 @@ h5 {
     color: #878787;
 }
 
-.sell-img-bottom .offer-price {
+.sell-product-details .offer-price {
     font-weight: 600;
     font-size: 15px;
     line-height: 27px;
@@ -577,3 +575,5 @@ h5 {
 .footer-bottom .footer-links a:hover {
     text-decoration: underline;
 }
+
+/* MegaMenu */
