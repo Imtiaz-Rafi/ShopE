@@ -607,10 +607,6 @@ h5 {
     padding: 32px 0px;
 }
 
-.nav-text>li>a:focus {
-    background: violet;
-}
-
 .nav-text>li:hover a {
     color: #FFD803;
 }
