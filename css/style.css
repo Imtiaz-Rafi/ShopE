@@ -148,6 +148,7 @@ h5 {
     align-items: center;
     display: flex;
     justify-content: space-between;
+    position: relative;
 }
 
 .navbar .nav-content {
@@ -164,7 +165,7 @@ h5 {
     font-size: 14px;
     line-height: 21px;
     color: #272343;
-    padding: 26px 14px;
+    padding: 27px 14px;
 }
 
 .nav-content .nav-links {
@@ -577,3 +578,60 @@ h5 {
 }
 
 /* MegaMenu */
+.mega-menue {
+    position: absolute;
+    top: 120%;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.3s;
+    left: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background: #FFFFFE;
+    box-shadow: 0px 0px 2px 1px rgba(0, 0, 0, 0.15);
+}
+
+.smartphones {
+    width: 568px;
+}
+
+.mobile-accessories {
+    width: 1106px;
+}
+
+.nav-text>li:hover .mega-menue {
+    top: 100%;
+    opacity: 1;
+    visibility: visible;
+    padding: 32px 0px;
+}
+
+.nav-text>li>a:focus {
+    background: violet;
+}
+
+.nav-text>li:hover a {
+    color: #FFD803;
+}
+
+.mega-menue>.menu-items>h4 {
+    line-height: 21px;
+    padding-bottom: 12px;
+}
+
+.mega-menue>.menu-items>ul>li>a {
+    color: #272343;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    padding-bottom: 8px;
+}
+
+.mega-menue>.menu-items>ul>li>a:hover {
+    text-decoration: underline;
+}
+
+.mega-menue>.menu-items>ul>li {
+    padding-bottom: 8px;
+}
