@@ -567,9 +567,6 @@ h5 {
     text-decoration: underline;
 }
 
-
-
-
 .footer-bottom {
     font-weight: 400;
     font-size: 14px;
@@ -758,4 +755,116 @@ h5 {
         padding: 40px 0px;
     }
 
+    .trending-grid-container {
+        grid-template-columns: auto;
+        grid-gap: 0px;
+        padding-top: 0px;
+    }
+
+    .trending-items {
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+
+    .item-upper-right {
+        position: relative;
+        padding-top: 20px;
+        bottom: 0px;
+        right: 0px;
+    }
+
+    .item-flex-right {
+        position: relative;
+        padding-top: 20px;
+        right: 0px;
+    }
+
+    .trending-items .item-left {
+        padding: 0px;
+        padding-top: 20px;
+        padding-bottom: 64px;
+    }
+
+    .best-selling-grid-container {
+        grid-template-columns: auto;
+        grid-gap: 30px;
+        text-align: center;
+    }
+
+    .sell-product-img .offer-discount {
+        position: absolute;
+        top: 24px;
+        right: 70px;
+
+    }
+    .feature-backg {
+        padding-bottom: 50px;
+    }
+
+    .feature-grid-container {
+        display: grid;
+        grid-template-columns: auto;
+        grid-gap: 40px 30px;
+    }
+    .subscribe-banner-backg{
+        margin-bottom: 0px;
+    }
+
+    .feature-category {
+        display: block;
+        width: 100%;
+        /* padding: 0px 20px; */
+        padding-bottom: 25px;
+    }
+
+    .subscribe-banner {
+        flex-direction: unset;
+        text-align: center;
+    }
+
+    .subscribe-banner .banner-left {
+        position: relative;
+        /* left: 0; */
+    }
+
+    .banner-left img {
+        width: 100%;
+    }
+
+    .subscribe-banner .banner-right {
+        width: 100%;
+        padding: 0px;
+        padding: 30px 30px;
+    }
+
+    .smartphones {
+        width: 100%;
+    }
+
+    .mobile-accessories {
+        width: 100%;
+    }
+
+    .footer-details .footer-content {
+        justify-content: center;
+    }
+
+    .footer-content .contact-us {
+        width: 100%;
+        text-align: center;
+        padding-bottom: 20px;
+    }
+
+    .footer-content .contact-us h3 {
+        padding-bottom: 10px;
+    }
+
+    .footer-details .secured-by {
+        justify-content: center;
+        text-align: center;
+    }
+
+    .footer-details .footer-links{
+        padding: 5px;
+    }
 }
