@@ -821,14 +821,15 @@ h5 {
 }
 
 .pagination-bars>li {
-    padding: 8px 14px;
+    padding: 8px 0px;
     border: 1px solid #BAE8E8;
     border-radius: 4px;
-    
+
     margin: 0px 8px;
 }
 
 .pagination-bars>li>a {
+    padding: 9px 14px;
     font-weight: 700;
     font-size: 14px;
     line-height: 20px;
@@ -1041,5 +1042,22 @@ h5 {
 
     .footer-details .footer-links {
         padding: 5px;
+    }
+
+    .side-nav {
+        display: none;
+    }
+
+    .product-content {
+        justify-content: center;
+    }
+
+    .pagination-bars>li {
+        padding: 5px 10px;
+        margin: 0px 4px;
+    }
+
+    .pagination-bars>li>a {
+        font-size: 12px;
     }
 }
