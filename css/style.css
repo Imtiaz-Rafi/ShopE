@@ -75,10 +75,26 @@ h5 {
     color: #2D334A;
 }
 
+.gray-clr {
+    color: #878787;
+}
+
 .Button {
     background: #FFD803;
     border: none;
     cursor: pointer;
+}
+
+.black-bg {
+    background: #151514;
+}
+
+.matte-orange-bg {
+    background: #FAC2A2;
+}
+
+.blue-bg {
+    background: #1A68FF;
 }
 
 .btn-text {
@@ -86,6 +102,11 @@ h5 {
     font-weight: 700;
     font-size: 14px;
     line-height: 14px;
+}
+
+.flex-sp-btwn {
+    display: flex;
+    justify-content: space-between;
 }
 
 /* top navbar */
@@ -220,7 +241,8 @@ h5 {
     border-radius: 28px;
 }
 
-.facilities {
+.facilities,
+.pdp-facilities {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -244,7 +266,6 @@ h5 {
     font-weight: 400;
     font-size: 13px;
     line-height: 24px;
-    color: #878787;
 }
 
 /* Trendings */
@@ -363,7 +384,6 @@ h5 {
     font-weight: 400;
     font-size: 15px;
     line-height: 27px;
-    color: #878787;
 }
 
 .sell-product-details .offer-price {
@@ -430,7 +450,6 @@ h5 {
     font-weight: 400;
     font-size: 15px;
     line-height: 27px;
-    color: #878787;
 }
 
 .subscribe-banner-backg {
@@ -847,6 +866,149 @@ h5 {
     opacity: 0.5;
     /* color: white; */
 }
+
+/* PDP PAGE */
+.pdp-product-details {
+    padding-top: 30px;
+}
+
+.side-product-images {
+    padding-right: 10px;
+}
+
+.main-product-image {}
+
+.product-description {
+    padding-left: 30px;
+}
+
+.product-description .product-name-price {
+    padding-bottom: 12px;
+}
+
+.product-description .product-name-price h2 {
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 54px;
+}
+
+.product-description .product-name-price p {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 27px;
+}
+
+.review-rating {
+    display: flex;
+    padding-bottom: 33px;
+}
+
+.review-rating p {
+    font-weight: 300;
+    font-size: 10px;
+    line-height: 15px;
+    padding-left: 5.67px;
+}
+
+.product-paragraph {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    color: #2D334A;
+}
+
+.product-color {
+    display: flex;
+    align-items: center;
+    padding: 60px 0px;
+}
+
+.product-color p {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    color: #000000;
+}
+
+.product-color .color-btn {
+    padding: 15px;
+    border: none;
+    border-radius: 50%;
+    margin-left: 16px;
+}
+
+.add-amount-btn {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 44px;
+}
+
+.amount-btn {
+    padding-right: 16px;
+}
+
+.add-amount {
+    width: 171px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.add-amount p {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 14px;
+}
+
+.add-wish-btns {}
+
+.blank-btn {
+    cursor: pointer;
+    background: #FFFFFE;
+    border: 1px solid #2D334A;
+    border-radius: 28px;
+    align-items: center;
+    padding: 16px 10px;
+}
+
+.add-cart {
+    width: 384px;
+    margin-bottom: 12px;
+}
+
+.add-wish {
+    width: 384px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+    color: #2D334A;
+    padding: 16px 32px;
+}
+
+.add-amount {}
+
+.pdp-facilities .sub-facilities {
+    text-align: center;
+    padding-top: 13px;
+    padding-bottom: 18px;
+}
+
+.pdp-facilities>.sub-facilities>.sub-facilities-head {
+    padding-top: 6px;
+    padding-bottom: 8px;
+}
+
+.pdp-facilities>.sub-facilities>.sub-facilities-text {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+}
+
+.pdp-facilities>.sub-facilities>img {
+    width: 24px;
+}
+
+
 
 
 
