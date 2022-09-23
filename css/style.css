@@ -411,11 +411,16 @@ h5 {
     text-align: center;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
-    width: 488px;
+    justify-content: center;
+    /* width: 488px; */
     margin: auto;
     align-items: center;
     padding-bottom: 125px;
+}
+
+.pdp-catg {
+    padding-top: 48px;
+    padding-bottom: 64px;
 }
 
 .feature-category .feature-items {
@@ -868,6 +873,10 @@ h5 {
 }
 
 /* PDP PAGE */
+.pdp-backg {
+    padding-bottom: 96px;
+}
+
 .pdp-product-details {
     padding-top: 30px;
 }
@@ -884,6 +893,7 @@ h5 {
 
 .product-description .product-name-price {
     padding-bottom: 12px;
+    align-items: center;
 }
 
 .product-description .product-name-price h2 {
@@ -1008,8 +1018,47 @@ h5 {
     width: 24px;
 }
 
+.pdp-feature {
+    padding-bottom: 124px;
+}
 
+.pdp-desc>h2 {
+    padding-bottom: 24px;
+}
 
+.pdp-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #2D334A;
+    padding-bottom: 48px;
+}
+
+.spc-texts {
+    padding-left: 30px;
+}
+
+.pdp-spc,
+.pdp-camera {
+    display: flex;
+    align-items: center;
+}
+
+.spc-texts>.pdp-text,
+.camera-texts>.pdp-text {
+    text-align: left;
+}
+
+.camera-texts {
+    padding-right: 30px;
+}
+
+.camera-texts>h2,
+.spc-texts>h2 {
+    text-align: left;
+    width: 373px;
+    padding-bottom: 24px;
+}
 
 
 
@@ -1034,7 +1083,7 @@ h5 {
     }
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 640px) {
     .container {
         width: 100%;
     }
@@ -1185,7 +1234,7 @@ h5 {
     }
 
     .footer-details .footer-content {
-        justify-content: center;
+        justify-content: space-evenly;
     }
 
     .footer-content .contact-us {
@@ -1216,11 +1265,87 @@ h5 {
     }
 
     .pagination-bars>li {
-        padding: 5px 10px;
         margin: 0px 4px;
     }
 
     .pagination-bars>li>a {
         font-size: 12px;
     }
+
+    .pdp-product-details {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .product-description {
+        padding: 10px;
+    }
+
+    .side-product-images ul {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .product-color {
+        padding: 20px 0px;
+    }
+
+    .add-amount-btn {
+        display: block;
+        padding-bottom: 44px;
+    }
+
+    .amount-btn {
+        padding: 0px;
+    }
+
+    .add-amount {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    .add-cart {
+        width: 100%;
+        margin-bottom: 12px;
+    }
+
+    .add-wish {
+        width: 100%;
+    }
+
+    .pdp-facilities {
+        display: block;
+    }
+
+    .pdp-backg {
+        padding-bottom: 30px;
+    }
+
+    .pdp-desc>img,
+    .spc-image>img {
+        width: 100%;
+    }
+
+    .pdp-spc,
+    .pdp-camera {
+        display: block;
+    }
+
+    .camera-texts,
+    .spc-texts {
+        padding: 10px;
+    }
+
+    .spc-texts>.pdp-text,
+    .camera-texts>.pdp-text {
+        text-align: justify;
+    }
+
+    .camera-texts>h2,
+    .spc-texts>h2 {
+        text-align: center;
+        width: 100%;
+    }
+
 }
